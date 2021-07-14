@@ -1,3 +1,4 @@
+
 //ADD YOUR FIREBASE LINKS HERE
 var firebaseConfig = {
       apiKey: "AIzaSyAdUorWXDAWWAnG2baIUA-dV_x7XhkXM8Q",
@@ -13,7 +14,7 @@ var firebaseConfig = {
     firebase.initializeApp(firebaseConfig);
     user_name=localStorage.getItem("User_Name");
     document.getElementById("user_name").innerHTML="welcome "+user_name+"!";
- 
+
     function addRoom(){
     room_name=document.getElementById("room_name").value;
     firebase.database().ref("/").child(room_name).update({

@@ -6,7 +6,7 @@ html, body
 
 body
 {
-background-image:url("image.jpg") ; background-position: center; background-size: cover;
+background-image: linear-gradient(to right top, #33a0f1, #2591d9, #1882c1, #0a73aa, #006494);
 }
 
 .header
